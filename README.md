@@ -4,11 +4,11 @@
 
 After performing GWAS analysis, a GWAS signal density plot can help illustrate the genetic architecture of the targeted phenotype and conduct comparisons between traits. For instance, in one recent study investigating distinct biological ages of organs, GWAS signal density plots were used to demonstrate the genetic distinctness between different organ ages (Nie et al., 2022) [^1]. 
 
-![image-20240709145905926](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20240709145905926.png)
+![image-20240709145905926](https://github.com/EnricMartin/GWAS-signal-density-plot/blob/main/image-20240709145905926.png)
 
 In other studies, a similar idea is also expressed by the Brisbane plot [^2].
 
-![image-20240709150740445](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20240709150740445.png)
+![image-20240709150740445](https://github.com/EnricMartin/GWAS-signal-density-plot/blob/main/image-20240709150740445.png)
 
 #### 1. Why you need this tutorial
 
@@ -123,7 +123,7 @@ a<-Heatmap(my_data,col = col_fun,
 
 #### 4. Outcome
 
-![image-20240709175149367](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20240709175149367.png)
+![image-20240709175149367](https://github.com/EnricMartin/GWAS-signal-density-plot/blob/main/image-20240709175149367.png)
 
 [^1]: Nie C, Li Y, Li R, et al. Distinct biological ages of organs and systems identified from a multi-omics study. *Cell Rep*. 2022;38(10):110459. doi:10.1016/j.celrep.2022.110459
 [^2]: Yengo, L., Vedantam, S., Marouli, E. *et al.* A saturated map of common genetic variants associated with human height. *Nature* **610**, 704–712 (2022). https://doi.org/10.1038/s41586-022-05275-y
