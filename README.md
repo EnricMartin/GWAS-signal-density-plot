@@ -1,4 +1,4 @@
-#### 0. What is the GWAS signal density plot?
+### 0. What is the GWAS signal density plot?
 
 **GWAS signal density plot is a heatmap plot, summarizing the number of signals (p < 0.05) per 10-Mbp window on the genome.** 
 
@@ -10,11 +10,11 @@ In other studies, a similar idea is also expressed by the Brisbane plot [^2].
 
 ![image-20240709150740445](https://github.com/EnricMartin/GWAS-signal-density-plot/blob/main/image-20240709150740445.png)
 
-#### 1. Why you need this tutorial
+### 1. Why you need this tutorial
 
 The reason I wrote this tutorial is very simple: there isn't an open-access code for drawing such a plot, though it is actually very simple. There indeed is an R package "CMplot" for painting the Manhattan plot and the SNP-density plot [^3]. However, using "CMplot" cannot put all 22 chromosomes into one row, which would take much place and lack clarity. 
 
-#### 2. Preparations
+### 2. Preparations
 
 **2.1 R packages preparation**
 
@@ -33,7 +33,7 @@ library(dplyr)
 
 GWAS summary data contains 4 columns: CHR, BP, P-value.
 
-#### 3. Code
+### 3. Code
 
 **3.1 The data we used**
 
@@ -121,7 +121,7 @@ a<-Heatmap(my_data,col = col_fun,
 )
 ```
 
-#### 4. Outcome
+### 4. Outcome
 
 ![image-20240709175149367](https://github.com/EnricMartin/GWAS-signal-density-plot/blob/main/image-20240709175149367.png)
 
